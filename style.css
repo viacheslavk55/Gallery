@@ -1,4 +1,10 @@
 .bg-hero-image {
-    background-image: url('https://picsum.photos/1300/500');
+    background-image: url("img/gallery.png");
     background-position: center center;
+}
+.title {
+    font-family: cooper-black-std, serif;
+}
+.desc {
+    font-family: fertigo-script, sans-serif;
 }

@@ -11,13 +11,14 @@
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/pal0hiu.css">
 </head>
 
 <body>
   <!-- Nav Bar Starts-->
   <nav class="navbar navbar-expand-lg bg-body-none">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Monthly Websites</a>
+      <a class="navbar-brand" href="#"><h3 class="title">Viacheslav Kostenko</h3></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,56 +26,52 @@
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html"><h3 class="title">About Me</h3></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Link
+          <li class="nav-item dropdown title">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><h3>Websites</h3>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">November</a></li>
+              <li><a class="dropdown-item" href="#november">November</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">December</a></li>
+              <li><a class="dropdown-item" href="#december">December</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">January</a></li>
+              <li><a class="dropdown-item" href="#january">January</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">February</a></li>
+              <li><a class="dropdown-item" href="#february">February</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">March</a></li>
+              <li><a class="dropdown-item" href="#march">March</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">April</a></li>
+              <li><a class="dropdown-item" href="#april">April</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">May</a></li>
+              <li><a class="dropdown-item" href="#may">May</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">June</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
+              <li><a class="dropdown-item" href="#june">June</a></li>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- Nav Bar Ends-->
-  <div class="container">
+  <div class="container-fluid">
     <!-- Header Section Starts -->
     <div class="row m-3">
       <!--Hero Start-->
-      <div class="col-12 col-lg-6 p-5 text-center bg-hero-image rounded-start-3">
+      <div class="title col-12 col-lg-6 p-5 text-center bg-hero-image rounded-3">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">
             <h1 class="mb-3">
@@ -85,10 +82,9 @@
       </div>
       <!--Hero Ends-->
       <!--Description starts-->
-      <div class="col-12 col-lg-6 my-3 my-lg-0 p-3 bg-dark-subtle rounded-end-3 text-center">
-        <p class="m-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laborum ipsa velit laboriosam odio quasi
-          fuga. Autem, aspernatur repellat! Maiores id fuga sequi, quae est totam ex atque? Repudiandae, quasi!
+      <div class="col-12 col-lg-6 my-3 my-lg-0 p-3 rounded-3 text-center" style="background-color: rgba(0, 0, 0, 0.2);">
+        <p class="m-3 desc text-white">
+          Explore a captivating digital realm of creativity at my gallery website, showcasing a curated collection of stunning website projects created by me. Immerse yourself in the artistry of web design, where innovation meets aesthetics in every pixel and code.
         </p>
       </div>
       <!--Description ends-->
@@ -99,7 +95,7 @@
 
     <div class="row justify-content-around m-3">
       <!-- November -->
-      <div class="card col-12 col-lg-3 p-3 mb-2">
+      <div id="november" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
         <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title">Card title</h5>
@@ -110,7 +106,7 @@
       </div>
       <!-- November END -->
       <!-- December -->
-      <div class="card col-12 col-lg-3 p-3 mb-2">
+      <div id="december" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
         <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title">Card title</h5>
@@ -121,7 +117,7 @@
       </div>
       <!-- December END -->
       <!-- January -->
-      <div class="card col-12 col-lg-3 p-3 mb-2">
+      <div id="january" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
         <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title">Card title</h5>
@@ -131,6 +127,61 @@
         </div>
       </div>
       <!-- January END -->
+      <!-- February -->
+      <div id="february" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
+        <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- February END -->
+      <!-- March -->
+      <div id="march" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
+        <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- March END -->
+      <!-- April -->
+      <div id="april" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
+        <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- April END -->
+      <!-- May -->
+      <div id="may" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
+        <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- May END -->
+      <!-- June -->
+      <div id="june" class="card col-12 col-lg-5 mx-lg-1 p-3 mb-2 mb-lg-3">
+        <img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- June END -->
     </div>
 
     <!-- Gallery END -->
@@ -143,26 +194,26 @@
         <!-- Section: Social media -->
         <section class="mb-4">
           <!-- Facebook -->
-          <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+          <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/" target="_blank" role="button"><i
               class="fab fa-facebook-f"></i></a>
 
           <!-- Twitter -->
-          <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+          <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="https://twitter.com/" target="_blank" role="button"><i
               class="fab fa-twitter"></i></a>
 
           <!-- Google -->
-          <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+          <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="https://mail.google.com/mail/u/0/#inbox" target="_blank" role="button"><i
               class="fab fa-google"></i></a>
 
           <!-- Instagram -->
-          <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+          <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="https://www.instagram.com/" target="_blank" role="button"><i
               class="fab fa-instagram"></i></a>
 
           <!-- Linkedin -->
-          <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+          <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/" target="_blank" role="button"><i
               class="fab fa-linkedin-in"></i></a>
           <!-- Github -->
-          <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+          <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/viacheslavk55" target="_blank" role="button"><i
               class="fab fa-github"></i></a>
         </section>
         <!-- Section: Social media -->
@@ -171,8 +222,8 @@
 
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">viacheslav.com</a>
       </div>
       <!-- Copyright -->
     </footer>
