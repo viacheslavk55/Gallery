@@ -8,3 +8,18 @@
 .desc {
     font-family: fertigo-script, sans-serif;
 }
+.cra {
+    max-width: 100%; 
+    margin: auto; 
+    margin-top: 10%; 
+    margin-bottom: 10%;
+}
+.cratext {
+    color: white; 
+    font-family: fertigo-script, sans-serif;
+    font-size: calc(0.6em + 0.4vw);
+}
+.cratitle {
+    font-family: cooper-black-std, serif;
+    color: white;
+}
